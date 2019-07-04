@@ -1,0 +1,27 @@
+{
+  "name": "FlsSelectBox",
+  "version": "0.1.0",
+  "summary": "A short description of FlsSelectBox.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/WuMu123Love/FlsSelectBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1361825681@qq.com": "wumuanhuihf@163.com"
+  },
+  "source": {
+    "git": "https://github.com/WuMu123Love/FlsSelectBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FlsSelectBox/Classes/**/*",
+  "resource_bundles": {
+    "FlsSelectBox": [
+      "FlsSelectBox/Assets/**/*"
+    ]
+  }
+}

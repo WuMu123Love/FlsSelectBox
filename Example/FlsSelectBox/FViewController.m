@@ -7,6 +7,7 @@
 //
 
 #import "FViewController.h"
+#import "FLSFiltrateView.h"
 
 @interface FViewController ()
 
@@ -17,8 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    NSArray * array = @[@"1",@"2",@"3",@"4"];
+    FLSFiltrateView * flsview = [[FLSFiltrateView alloc] initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, array.count*60+20)];
+    flsview.titleArray = array;
+    flsview.backSelectItemArray = ^(NSArray * _Nonnull itemArray) {
+        NSLog(@"%@",itemArray);
+    };
+    [self.view addSubview:flsview];}
 
 - (void)didReceiveMemoryWarning
 {

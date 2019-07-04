@@ -1,0 +1,16 @@
+PODS:
+  - FlsSelectBox (0.1.0)
+
+DEPENDENCIES:
+  - FlsSelectBox (from `../`)
+
+EXTERNAL SOURCES:
+  FlsSelectBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FlsSelectBox: 44604db809e508a7d5af9fedddf8b8c34bf48081
+
+PODFILE CHECKSUM: 728b875f55e4379494df48f70feb0f3ea713245e
+
+COCOAPODS: 1.4.0

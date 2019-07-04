@@ -1,0 +1,6 @@
+framework module FlsSelectBox {
+  umbrella header "FlsSelectBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
