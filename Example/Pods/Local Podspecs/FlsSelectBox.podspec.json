@@ -1,6 +1,6 @@
 {
   "name": "FlsSelectBox",
-  "version": "0.1.0",
+  "version": "2",
   "summary": "A short description of FlsSelectBox.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/WuMu123Love/FlsSelectBox",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/WuMu123Love/FlsSelectBox.git",
-    "tag": "0.1.0"
+    "tag": "2"
   },
   "platforms": {
     "ios": "8.0"

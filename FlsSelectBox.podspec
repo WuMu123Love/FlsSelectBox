@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'FlsSelectBox/Classes/**/*'
+  s.source_files = 'FlsSelectBox/Classes/**/*'
   
   s.resource_bundles = {
     'FlsSelectBox' => ['FlsSelectBox/Assets/**/*']
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.subspec 'SelectBox' do |ss|
-  ss.source_files 'FlsSelectBox/Classes/SelectBox/**/*,(h,m)'
-  end
+  #s.subspec 'SelectBox' do |ss|
+  #ss.source_files 'FlsSelectBox/Classes/SelectBox/**/*,(h,m)'
+  #end
 end
